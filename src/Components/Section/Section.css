@@ -1,0 +1,9 @@
+.general-section {
+    min-height: calc(100vh - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    /* border: solid 1px; */
+}

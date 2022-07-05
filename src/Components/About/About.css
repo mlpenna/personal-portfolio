@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 92%;
+}
+
+.img-round {
+    border-radius: 10%;
+    width: 180px;
+    align-self: flex-start;
+    border: solid 2px var(--ter-text-color);
+    /* background: var(--ter-text-color); */
+}
+
+.header-about {
+    margin-right: 78px;
+}
+
+.header-about p {
+    text-align: justify;
+    margin-bottom: 25px;
+}

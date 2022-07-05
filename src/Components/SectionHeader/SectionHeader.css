@@ -1,0 +1,11 @@
+.section-header {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    width: 92%;
+}
+
+.text-header-accent {
+    font-size: 30px;
+    color: var(--ter-text-color);
+}

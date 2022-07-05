@@ -1,6 +1,5 @@
 import "./Navbar.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
 
 function Navbar() {
   return (
@@ -8,18 +7,25 @@ function Navbar() {
       {/* <div className="nav-name text-header">Matheus Penna</div> */}
       <div className="nav-menu">
         <div className="nav-menu-item">
+          <button>
             <span className="menu-item-accent">01.</span> Sobre
+          </button>
         </div>
         <div className="nav-menu-item">
-            2. Experiência
+          <button>
+            <span className="menu-item-accent">02.</span> Experiência
+          </button>
         </div>
         <div className="nav-menu-item">
-            3. Trabalho
+          <button>
+            <span className="menu-item-accent">03.</span> Trabalho
+          </button>
         </div>
         <div className="nav-menu-item">
-            4. Contato
+          <button>
+            <span className="menu-item-accent">04.</span> Contato
+          </button>
         </div>
-
       </div>
       <div className="nav-links">
         <div className="nav-link-div">
