@@ -3,15 +3,14 @@
     align-self: center;
     align-items: center;
     justify-content: space-between;
-    /* width: 92%; */
+    height: 100%;
 }
 
 .about-img {
-    border-radius: 10%;
+    border-radius: 4px;
     width: 180px;
     align-self: flex-start;
-    border: solid 2px var(--ter-text-color);
-    /* background: var(--ter-text-color); */
+    border: solid 1px var(--ter-text-color);
 }
 
 .about-text {

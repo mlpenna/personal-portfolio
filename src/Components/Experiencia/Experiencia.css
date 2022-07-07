@@ -4,9 +4,8 @@
     justify-content: flex-start;
     align-items: flex-start;
     align-self: stretch;
-    margin-top: 30px;
-    /* min-height: 400px; */
-    /* align-items: center; */
+    /* height: 100%; */
+    min-height: 470px;
 }
 
 .exp-table-section {
@@ -14,7 +13,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100px;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
@@ -25,7 +23,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    /* min-width: 200px;  */
 }
 
 .exp-table-tab {
@@ -66,6 +63,8 @@
 
 .table-list-elem:hover {
     background-color: var(--secondary-text-color);
+    color: var(--main-bg-color);
+    cursor: pointer;
 }
 
 .table-list-elem:active {

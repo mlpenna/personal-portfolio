@@ -2,6 +2,8 @@ import "./Section.css"
 import SectionHeader from "../SectionHeader/SectionHeader";
 import About from "../About/About";
 import Experiencia from "../Experiencia/Experiencia";
+import Projetos from "../Projetos/Projetos";
+import Contato from "../Contato/Contato";
 
 function Section({ sid, sindex, name }) {
 
@@ -24,7 +26,7 @@ function Section({ sid, sindex, name }) {
     return (
       <div id={sid} className="general-section">
         <SectionHeader sid={sid} sindex={sindex} name={name} />
-        <h2>isjaijsiajsoj</h2>
+        <Projetos />
       </div>
     );
   }
@@ -32,7 +34,7 @@ function Section({ sid, sindex, name }) {
     return (
       <div id={sid} className="general-section">
         <SectionHeader sid={sid} sindex={sindex} name={name} />
-        <h2>isjaijsiajsoj</h2>
+        <Contato />
       </div>
     );
   }

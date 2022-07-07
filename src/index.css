@@ -10,11 +10,11 @@ rgb(54, 48, 98)
 */
 
 :root {
-    --main-bg-color: #1d3557;
-    --primary-text-color: #f1faee;
-    --secondary-text-color: #457b9d;
-    --ter-text-color: #a8dadc;
-    --accent-color: #e63946;
+    --main-bg-color: #003049;
+    --primary-text-color: #eae2b7;
+    --secondary-text-color: #fcbf49;
+    --ter-text-color: #f77f00;
+    --accent-color: #d62828;
 }
 
 * {

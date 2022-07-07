@@ -3,11 +3,11 @@
     justify-content: flex-end;
     align-items: center;
     position: sticky;
-    height: 60px;
+    /* height: 15vh; */
     top: 0;
-    background-color: rgba(29,53,87,0.95);
+    background-color: #002f49c9;
     width: 90%;
-    box-shadow: 0px 3px 3px 0px #1D3557;
+    /* box-shadow: 0px 3px 3px 0px #1D3557; */
 }
 
 .nav-menu {
@@ -15,7 +15,8 @@
     justify-content: space-between;
     min-width: 200px;
     margin-right: auto;
-
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .nav-menu-item {
@@ -38,6 +39,7 @@
 
 .nav-link-div {
     padding: 0px 5px;
+    margin: 10px 0px;
 }
 
 .nav-link {

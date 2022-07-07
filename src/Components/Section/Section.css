@@ -1,9 +1,11 @@
 .general-section {
-    min-height: calc(100vh - 60px);
+    /* height: calc(120vh - 60px); */
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 65%;
     /* border: solid 1px var(--secondary-text-color); */
+    margin-top: 50px;
 }

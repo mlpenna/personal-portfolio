@@ -2,7 +2,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div>
+    <>
       <div className="about-main">
         <div className="about-text">
           <p>
@@ -20,6 +20,16 @@ function About() {
             global, da indústria química/alimentícia.
           </p>
           <p>Algumas tecnologias que tenho utilizado recentemente:</p>
+          <div>
+            <ul className="about-tech-list">
+              <li>HTML5/CSS3</li>
+              <li>JavaScript (ES6+)</li>
+              <li>TypeScript</li>
+              <li>ReactJS</li>
+              <li>.NET 6.0/C#</li>
+              <li>Go</li>
+            </ul>
+          </div>
         </div>
         <img
           className="about-img"
@@ -27,17 +37,8 @@ function About() {
           alt="foto perfil"
         />
       </div>
-      <div>
-        <ul className="about-tech-list">
-          <li>HTML5/CSS3</li>
-          <li>JavaScript (ES6+)</li>
-          <li>TypeScript</li>
-          <li>ReactJS</li>
-          <li>.NET 6.0/C#</li>
-          <li>Go</li>
-        </ul>
-      </div>
-    </div>
+
+    </>
   );
 }
 
