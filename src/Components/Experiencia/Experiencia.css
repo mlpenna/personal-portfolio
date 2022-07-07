@@ -1,0 +1,78 @@
+.exp-table {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: stretch;
+    margin-top: 30px;
+    /* min-height: 400px; */
+    /* align-items: center; */
+}
+
+.exp-table-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.exp-table-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* min-width: 200px;  */
+}
+
+.exp-table-tab {
+    padding: 0px 50px;
+    width: 600px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.exp-table-tab li{
+    margin: 10px 0px;
+}
+
+.exp-table-tab li::marker {
+    font-size: 13px;
+    color: var(--ter-text-color);
+}
+
+.tab-date {
+    color: var(--ter-text-color);
+}
+
+.table-list-elem {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    transition: all;
+    border-left: 1px solid var(--ter-text-color);
+    padding: 5px;
+}
+
+.e-active {
+    color: var(--ter-text-color);
+    border-left: 4px solid var(--ter-text-color);
+}
+
+.table-list-elem:hover {
+    background-color: var(--secondary-text-color);
+}
+
+.table-list-elem:active {
+    color: aqua;
+}
+
+.exp-table-list {
+    list-style-type: none;
+    padding-right: 15px;
+}

@@ -1,13 +1,12 @@
-.header {
+.about-main {
     display: flex;
     align-self: center;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
-    width: 92%;
+    /* width: 92%; */
 }
 
-.img-round {
+.about-img {
     border-radius: 10%;
     width: 180px;
     align-self: flex-start;
@@ -15,11 +14,26 @@
     /* background: var(--ter-text-color); */
 }
 
-.header-about {
+.about-text {
     margin-right: 78px;
 }
 
-.header-about p {
+.about-text p {
     text-align: justify;
     margin-bottom: 25px;
+}
+
+.about-tech-list {
+    max-height: 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+
+.about-tech-list li::marker {
+    font-size: 13px;
+    color: var(--ter-text-color);
 }

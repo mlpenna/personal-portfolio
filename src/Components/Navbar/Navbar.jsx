@@ -1,7 +1,10 @@
 import "./Navbar.css";
 
 
-function Navbar() {
+
+function Navbar({ sectionAbout, sectionExp, sectionProj, sectionContato }) {
+
+
   return (
     <div className="navbar">
       {/* <div className="nav-name text-header">Matheus Penna</div> */}

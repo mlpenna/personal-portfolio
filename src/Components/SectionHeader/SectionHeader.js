@@ -3,10 +3,10 @@ import "./SectionHeader.css";
 function SectionHeader({ sid, sindex, name }) {
   return (
     <div className="section-header">
-        <h1>
+        <h2>
           <span className="text-header-accent">{sindex}. </span>
           {name}
-        </h1>
+        </h2>
     </div>
   );
 }
